@@ -2918,7 +2918,7 @@ Si hanno n operazioni e si deve assegnare uno start_time a ciascuna operazione (
 ## **Implementazione ACO**
 Qui di seguito è riportato il codice per implementare una versione di ACO. Ovviamente è necessario riscrivere la classe per il problema del TSP, per qualsiasi informazione aggiuntiva vedere la relativa directory del `particle_swarm` tra le implementazioni degli algoritmi.
 ```python
-lass ACO_for_TSP:
+class ACO_for_TSP:
     def __init__(self,problem):
         self.problem=problem
         self.alpha=1
